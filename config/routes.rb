@@ -1,5 +1,16 @@
 Albums::Application.routes.draw do
   root "pages#home"
+  get "yeezus" => "pages#yeezus"
+  get "chance" => "pages#chance"
+  get "migos" => "pages#migos"
+  get "daft" => "pages#daft"
+  get "earl" => "pages#earl"
+  get "james" => "pages#james"
+  get "haim" => "pages#haim"
+  get "disclosure" => "pages#disclosure"
+  get "drake" => "pages#drake"
+  get "runthejewels" => "pages#runthejewels"
+  get "random" => "pages#random"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
